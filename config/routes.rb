@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   get '/rails/info/properties' , to: "rails/info#properties"
   get '/rails/info/routes'     , to: "rails/info#routes"
   get '/rails/info'            , to: "rails/info#index"
+  get '/test'                  , to: "test#index"
   get '/'                      , to: "rails/welcome#index"
 end
